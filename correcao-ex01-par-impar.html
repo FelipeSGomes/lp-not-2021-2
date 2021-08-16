@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Correção exercício 01</title>
+    <script>
+
+        /* 
+            Peça ao usuário para informar um número, usando prompt().
+             Determine se o número digitado é par ou ímpar e informe usando alert().
+        */
+       // parInt(): *TENTA* converter uma string em um número INTEIRO
+        let num = Number(prompt('Informe um número inteiro:'))
+
+        if(isNaN(num))
+        {
+            alert('ERRO: o valor informado não é um número inteiro!')
+        }
+        else if (num % 2 === 0)
+        {
+            alert('O número informado (' + num + ') é PAR.')
+        }
+        else
+        {
+            alert('O número informado (' + num + ') é IMPAR.')
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
